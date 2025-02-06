@@ -213,7 +213,7 @@ var Frame = wp.media.View.extend(/** @lends wp.media.view.Frame.prototype */{
 	 */
 	isModeActive: function( mode ) {
 		return Boolean( this.activeModes.where( { id: mode } ).length );
-	}
+	},
 
 	/**
      * Render the frame
